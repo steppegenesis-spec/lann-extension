@@ -1,0 +1,10 @@
+{
+  "name": "lann-extension",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Lann back-office Steam session bridge (Chrome MV3)",
+  "scripts": {
+    "icons": "node scripts/make-icons.mjs"
+  }
+}

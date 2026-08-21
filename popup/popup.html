@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lann Steam</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <header>
+      <strong>Lann Steam</strong>
+      <span class="muted">back-office bridge</span>
+    </header>
+    <p id="status" class="status checking">Checking Steam session…</p>
+    <div class="actions">
+      <button type="button" id="recheck">Recheck</button>
+      <a id="open-steam" href="https://steamcommunity.com/login" target="_blank" rel="noreferrer">
+        Open Steam login
+      </a>
+    </div>
+    <p id="extension-id" class="id-line"></p>
+    <div id="list"></div>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
