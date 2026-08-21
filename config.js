@@ -7,10 +7,14 @@ export const CONTEXT_ID = {
   protected: '16',
 }
 
-/** Origins allowed to talk to this extension via chrome.runtime.sendMessage. */
+/** Origins allowed to talk to this extension via chrome.runtime.sendMessage.
+ *  Keep in sync with externally_connectable.matches in manifest.json. */
 export const ALLOWED_EXTERNAL_ORIGINS = [
   'http://localhost:8080',
   'http://127.0.0.1:8080',
+  'http://localhost:8081',
+  'http://127.0.0.1:8081',
+  'http://192.168.1.100:8081',
 ]
 
 export const MESSAGE = {
