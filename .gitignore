@@ -1,4 +1,6 @@
 node_modules/
+dist/
+*.zip
 *.pem
 .DS_Store
 Thumbs.db
