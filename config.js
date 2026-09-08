@@ -15,6 +15,8 @@ export const ALLOWED_EXTERNAL_ORIGINS = [
   'http://localhost:8081',
   'http://127.0.0.1:8081',
   'http://192.168.1.100:8081',
+  'https://office.dev.lann.market',
+  'https://office.lann.market',
 ]
 
 export const MESSAGE = {
